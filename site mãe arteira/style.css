@@ -1,0 +1,132 @@
+body {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30  px;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(245, 227, 211);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width:100px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: PX;
+    display: flex;
+    justify-content: center;
+    background: palevioletred;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.fundo {
+    background: url('fundo.png') no-repeat center center/cover;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 120px 0;
+    font-size: 28px;
+}   
+
+.texto {
+    background-color:palevioletred;
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+    margin-right:20 px;
+}
+
+.button-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info {
+
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titideo {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 26px;
+    font-family:'Grand Hotel', cursive;
+}
+
+.button {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    font: size 24px; ;
+}
+
+.images figure {
+    text-align: center;
+    padding: px 0;
+}
+
+.titulovalor {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-family:'Grand Hotel', cursive;
+}
+
+.video, .map, .form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heart {
+    margin-top: 3%;
+    margin-left: 0,1%;
+    animation: pulsar 2s infinite alternate;
+    max-width:150px
+  }
+  @keyframes pulsar {
+      0% {
+          transform: scale(.8);
+      }
+  
+      100% {
+          transform: scale(1.2);
+      }
+  }
+
+footer {
+    background-color:palevioletred;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
